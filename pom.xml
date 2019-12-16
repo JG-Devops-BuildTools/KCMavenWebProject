@@ -107,6 +107,19 @@
     </plugins>
   </build>
 
+  <distributionManagement>
+      <repository>
+          <id>nexus</id>
+          <name>testing Nexus Repository</name>
+          <url>http://18.208.148.94:8081/repository/web-release/</url>
+      </repository>
+      <snapshotRepository>
+          <id>nexus</id>
+          <name>Test snapshot Nexus Repository </name>
+          <url>http://18.208.148.94:8081/repository/web-release/</url>
+      </snapshotRepository>
+  </distributionManagement>
+
   <profiles>
     <profile>
       <id>sonar-coverage</id>
