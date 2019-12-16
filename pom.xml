@@ -6,7 +6,7 @@
   <groupId>com.kctechnologies</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1.0-SNAPSHOT</version>
   <name>Maven Web Project </name>
   <description>Maven Web Project for Java</description>
 
@@ -116,7 +116,7 @@
       <snapshotRepository>
           <id>nexus</id>
           <name>Test snapshot Nexus Repository </name>
-          <url>http://18.208.148.94:8081/repository/web-release/</url>
+          <url>http://18.208.148.94:8081/repository/web-snapshot/</url>
       </snapshotRepository>
   </distributionManagement>
 
