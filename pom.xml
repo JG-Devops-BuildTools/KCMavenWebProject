@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion> 
 
   <groupId>com.kctechnologies</groupId>
-  <artifactId>maven-web-project</artifactId>
+  <artifactId>maven-web-project-prod</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project</name>
@@ -91,6 +91,19 @@
 			<version>${spring.version}</version>
 		</dependency>
   </dependencies>
+
+  <distributionManagement>
+      <repository>
+          <id>nexus</id>
+          <name>testing Nexus Repository</name>
+          <url>http://18.208.148.94:8081/repository/web-release/</url>
+      </repository>
+      <snapshotRepository>
+          <id>nexus</id>
+          <name>Test snapshot Nexus Repository </name>
+          <url>http://18.208.148.94:8081/repository/web-snapshot/</url>
+      </snapshotRepository>
+  </distributionManagement>
 
   <build>
     <plugins>
