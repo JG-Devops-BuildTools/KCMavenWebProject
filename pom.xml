@@ -6,7 +6,7 @@
   <groupId>com.kctechnologies</groupId>
   <artifactId>maven-web-project-prod</artifactId>
   <packaging>war</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1-RELEASE</version>
   <name>Maven Web Project</name>
   <description>Maven Web Project for Java</description>
 	
